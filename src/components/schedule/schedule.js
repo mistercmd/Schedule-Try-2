@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Gradient from '../gradient';
 
 
 class Schedule extends Component {
@@ -6,7 +7,7 @@ class Schedule extends Component {
       return (
          <div className="schedule">
             <h1 className="schedule__title">My Schedule</h1>
-
+            <Gradient/>
          </div>
       )
    }

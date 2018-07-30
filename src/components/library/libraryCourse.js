@@ -16,7 +16,7 @@ class LibraryCourse extends Component {
 
         this.state = {
             status: true,
-            height: 0;
+            height: 0,
         }
     }
 

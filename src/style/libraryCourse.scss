@@ -1,7 +1,7 @@
 .library-course {
     display: grid;
     grid-template-columns: 1fr 48px 58px;
-    grid-template-rows: 50px 1fr;
+    grid-template-rows: 80px 1fr;
     
     &__line {
         grid-column: 1/-1;
@@ -48,7 +48,9 @@
         line-height: 22px;
     }
     &__line {
-
+        border-bottom: 1px solid #F2F2F2;
+        margin-top: 19px;
+        margin-bottom: 24px;
     }
     &__icon {
         color: $color-blue;

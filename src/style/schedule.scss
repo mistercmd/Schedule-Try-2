@@ -1,6 +1,6 @@
 .schedule {
    display: grid;
-   grid-template-rows: [space-one-s] 1fr [space-one-e title-s] 100px [title-e] repeat(5, 80px) [progress-s] 1fr [progress-e]; 
+   grid-template-rows: [space-one-s] 1fr [space-one-e] repeat(5, 80px) [progress-s] 1fr [progress-e]; 
    grid-row-gap: 22px;
 
    grid-column: schedule-s/schedule-e;
@@ -12,13 +12,17 @@
    align-items: center;
    justify-items: center;
 
-   align-content: center;
+   align-content: start;
+
+   padding-top: 167px;
 
    &__title {
-        grid-row: title-s/title-e; 
+        position: absolute;
+        top: 84px;
         color: white;
         font-family: $font-a;
         font-size: 20px;
+        font-weight: 300;
         @include border-left
    }
 }
